@@ -65,6 +65,7 @@ rough install process is like so:
 
 1. Enable The plugin in conf/play.pluggins `10000:plugins.JorgeeBGonePlugin` (You can pick any number, the plugin only depends on an implicit application and a configuration being present)
 2. Update your Global object to use the filter via `WithFilters(..., JorgeeBGonePlugin.filter)`
+
 2.5 If you don't have a global object already make one:
 ```
 import play.api.mvc._
@@ -80,6 +81,7 @@ and update your conf to set it `application.global=Global`
 
 1. Enable the module in your .conf file via `play.modules.enabled  += "module.JorgeeBGoneModule"`
 2. If you already have a `HttpFilters` class defined, make it take a `JorgeeBGoneUserAgentFilter` as a parameter and pass it to the filters seq you've made.
+
 2.5 If you don't have a filter defined, create on in your default package like so:
 ```
 import javax.inject.Inject
