@@ -1,10 +1,4 @@
 *.log
 target/
-project/
-*/project/*
 
-!core/project/*.sbt
-!play23/project/*.sbt
-!play24/project/*.sbt
-!samples/play23/project/*.sbt
-!samples/play24/project/*.sbt
+!*.sbt
