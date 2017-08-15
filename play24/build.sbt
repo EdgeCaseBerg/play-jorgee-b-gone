@@ -8,3 +8,7 @@ scalaVersion := "2.11.7"
 
 lazy val module = RootProject(file("../core"))
 lazy val root = (project in file(".")).enablePlugins(PlayScala).dependsOn(module)
+
+libraryDependencies ++= Seq(
+	"org.scalatestplus" %% "play" % "1.4.0" % "test"
+)
