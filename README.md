@@ -48,12 +48,16 @@ Then you can update your `project/plugings.sbt` to include it
 
 play 2.3:
 ```
-addSbtPlugin("com.github.edgecaseberg" % "jorgee-b-gone-play23" % "0.0.0-SNAPSHOT")
+libraryDependencies ++= Seq(
+	"com.github.edgecaseberg" %% "jorgee-b-gone-play23" % "0.0.0"
+)
 ```
 
 play 2.4:
 ```
-addSbtPlugin("com.github.edgecaseberg" % "jorgee-b-gone-play24" % "0.0.0-SNAPSHOT")
+libraryDependencies ++= Seq(
+	"com.github.edgecaseberg" %% "jorgee-b-gone-play24" % "0.0.0"
+)
 ```
 
 ### Installing
