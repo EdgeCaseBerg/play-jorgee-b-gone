@@ -1,3 +1,5 @@
+Jorgee B Gone [![Build Status](https://travis-ci.org/EdgeCaseBerg/play-jorgee-b-gone.svg?branch=master)](https://travis-ci.org/EdgeCaseBerg/play-jorgee-b-gone)
+
 Jorgee B Gone
 =============================================================
 
