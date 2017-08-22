@@ -5,8 +5,8 @@ scala:
 
 script: 
   - cd core && sbt ++$TRAVIS_SCALA_VERSION test
-  - cd play23 && && sbt ++$TRAVIS_SCALA_VERSION test
-  - cd play24 && && sbt ++$TRAVIS_SCALA_VERSION test
+  - cd play23 && sbt ++$TRAVIS_SCALA_VERSION test
+  - cd play24 && sbt ++$TRAVIS_SCALA_VERSION test
 
 jdk:
   - oraclejdk8
